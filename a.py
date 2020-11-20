@@ -1,4 +1,8 @@
-from collections import Counter
-a = ['a','2','3']
+import os
 
-print(Counter(a))
+sum = 11
+while sum < 21:
+    sum+=1
+    os.system('cls')
+    print('hello world')
+    input('开始下一次')
